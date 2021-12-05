@@ -16,7 +16,7 @@ html, body {
     border-radius: 10px;
 }
 
-a {
+a, a:visited {
     color: #eceff4;
     text-decoration: none;
 }
