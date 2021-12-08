@@ -1,45 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+:root {
+  --background: #171722;
+  --background-secondary: #212331;
+  --foreground: #a9b1d6;
+  --accent: #7aa2f7;
+}
 
-html, body {
-    padding: 0px;
-    margin: 0px;
+html,
+body {
+  padding: 0px;
+  margin: 0px;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    font-family: 'Red Hat Display', sans-serif;
-    color: #eceff4;
-    background: #4c566a;
+  font-family: 'JetBrainsMono Nerd Font', monospace;
+  color: var(--foreground);
+  background: var(--background-secondary);
 }
 
 * {
-    border-radius: 10px;
+  border-radius: 8px;
 }
 
-a, a:visited {
-    color: #eceff4;
-    text-decoration: none;
+.title {
+  color: var(--accent)
+}
+
+a,
+a:visited {
+  color: var(--foreground);
+  text-decoration: none;
 }
 
 a:hover {
-    color: #81a1c1;
+  color: var(--accent);
 }
 
-.row{
-    padding: 1.4em;
+.row {
+  padding: 1.4em;
 }
 
 .col-sm-3 {
-    padding: 2em;
-    background: #434c5e;
+  padding: 2em;
+  background: #1a1b26;
 }
 
 .col-sm-8 {
-    padding: 2em;
-    background: #2e3440;
+  padding: 2em;
+  background: var(--background);
 }
 
 .col-sm-3 {
-    height: 100%;
-    margin: 2em;
+  height: 100%;
+  margin: 2em;
+}
+
+.img-fluid {
+  margin-bottom: 30px;
+}
+.social {
+  color: #9ece6a;
+}
+.media {
+  color: #bb9af7;
+}
+.docs {
+  color: #e0af68;
+}
+.others {
+  color: #f7768e;
 }
